@@ -14,7 +14,7 @@ extern crate wasm_bindgen;
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-fn main() {
+pub fn main() {
     web_console_logger::init().unwrap();
     // OR
     // web_console_logger::init_with_level(log::Level::Warn).unwrap();
